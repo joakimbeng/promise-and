@@ -1,0 +1,31 @@
+{
+  "name": "promise-and",
+  "version": "0.1.0",
+  "description": "The AND (&&) operator for promises",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [
+    "promise",
+    "and",
+    "operator",
+    "functional"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@klei.se"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.1.0",
+    "lazy-promise": "^3.0.1",
+    "xo": "^0.8.0"
+  },
+  "repository": "joakimbeng/promise-and",
+  "dependencies": {
+    "sliced": "^1.0.1"
+  }
+}
